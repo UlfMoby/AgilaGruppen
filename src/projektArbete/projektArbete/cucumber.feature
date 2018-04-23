@@ -7,13 +7,16 @@ Feature: Test mimicservice app
     Then  The Response of <request> should answers with <response>
 
     Examples: 
-      | request             | response |
-      | "test"              | "hi!"    |
-      | "Does it work?"     | "Yes"    |
-      | "2+2"               | "4"      |
-      | "4+4"               | "8"      |
-      | "5+5"               | "10"     |
-      | "10+10"             | "20"     |
+      | request                      | response |
+      | "test"                       | "hi!"    |
+      | "Does it work?"              | "Yes"    |
+      | "2+2"                        | "4"      |
+      | "4+4"                        | "8"      |
+      | "5+5"                        | "10"     |
+      | "10+10"                      | "22"     | 
+      | "10+10"                      | "20"     | 
+      | "add?value1=10&value2=20"    | "3000"   |
+      | "add?value1=10&value2=20"    | "30"     |
 
   
   
