@@ -1,5 +1,6 @@
 package projektArbete;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
 public class TestMockensMock {
 	MockensMock mock = new MockensMock("");

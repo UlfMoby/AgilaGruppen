@@ -3,5 +3,33 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/sesec/.m2/repository/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="info.cukes"/>
+			<attribute name="maven.artifactId" value="cucumber-core"/>
+			<attribute name="maven.version" value="1.2.4"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/cucumber-unit"/>
+	<classpathentry kind="lib" path="C:/Users/sesec/.m2/repository/info/cukes/cucumber-junit/1.2.4/cucumber-junit-1.2.4.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="info.cukes"/>
+			<attribute name="maven.artifactId" value="cucumber-junit"/>
+			<attribute name="maven.version" value="1.2.4"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/sesec/.m2/repository/info/cukes/cucumber-java/1.2.4/cucumber-java-1.2.4.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="info.cukes"/>
+			<attribute name="maven.artifactId" value="cucumber-java"/>
+			<attribute name="maven.version" value="1.2.4"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
