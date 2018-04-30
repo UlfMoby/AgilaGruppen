@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="21" time="1.113551">
+<testcase classname="Test mimicservice app" name="As a tester i would like to unlearnAll" time="0.334538">
+<system-out><![CDATA[Given Environment is up and running.........................................passed
+When unlearnAll.............................................................passed
+Then The Response of Test2 should answers with insert form..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="Learn and correct a new response" time="0.432588">
+<system-out><![CDATA[Given Environment is up and running.........................................passed
+When Learn that "test" should answer with "hi" with "text/plain"............passed
+Then The Response of "test" answers with "hi" with "text/plain".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="Learn and correct a new response 2" time="0.026507">
+<system-out><![CDATA[Given Environment is up and running.........................................passed
+When Learn that "test" should answer with "Yes" with "application/json".....passed
+Then The Response of "test" answers with "Yes" with "application/json"......passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="Learn and correct a new response 3" time="0.036077">
+<system-out><![CDATA[Given Environment is up and running.........................................passed
+When Learn that "test" should answer with "4" with "application/json".......passed
+Then The Response of "test" answers with "4" with "application/json"........passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="Learn and correct a new response 4" time="0.015237">
+<system-out><![CDATA[Given Environment is up and running.........................................passed
+When Learn that "test" should answer with "8" with "text/html"..............passed
+Then The Response of "test" answers with "8" with "text/html"...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="Learn and correct a new response 5" time="0.022505">
+<system-out><![CDATA[Given Environment is up and running.........................................passed
+When Learn that "test" should answer with "10" with "text/plain"............passed
+Then The Response of "test" answers with "10" with "text/plain".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="Learn and correct a new response 6" time="0.030111">
+<system-out><![CDATA[Given Environment is up and running.........................................passed
+When Learn that "test" should answer with "22" with "text/plain"............passed
+Then The Response of "test" answers with "22" with "text/plain".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="Learn and correct a new response 7" time="0.015113">
+<system-out><![CDATA[Given Environment is up and running.........................................passed
+When Learn that "test" should answer with "20" with "text/plain"............passed
+Then The Response of "test" answers with "20" with "text/plain".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="Learn and correct a new response 8" time="0.017568">
+<system-out><![CDATA[Given Environment is up and running.........................................passed
+When Learn that "test" should answer with "3000" with "text/plain"..........passed
+Then The Response of "test" answers with "3000" with "text/plain"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="Learn and correct a new response 9" time="0.013481">
+<system-out><![CDATA[Given Environment is up and running.........................................passed
+When Learn that "test" should answer with "30" with "text/plain"............passed
+Then The Response of "test" answers with "30" with "text/plain".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="Learn a new response and then unlearn it" time="0.05093">
+<system-out><![CDATA[Given Environment is up and running.........................................passed
+When Learn that request Test2 should answer with Yes........................passed
+And Unlearn the request.....................................................passed
+Then The Response of Test2 should answers with insert form..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="As a tester i would like to resert state and get the results back again first" time="0.004694">
+<system-out><![CDATA[Then resetState.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="As a tester i would like to check if states works" time="0.017174">
+<system-out><![CDATA[Then The Response of "test" answers with "hi" with "text/plain".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="As a tester i would like to check if states works 2" time="0.016645">
+<system-out><![CDATA[Then The Response of "test" answers with "Yes" with "application/json"......passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="As a tester i would like to check if states works 3" time="0.015868">
+<system-out><![CDATA[Then The Response of "test" answers with "4" with "application/json"........passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="As a tester i would like to check if states works 4" time="0.007651">
+<system-out><![CDATA[Then The Response of "test" answers with "8" with "text/html"...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="As a tester i would like to check if states works 5" time="0.02023">
+<system-out><![CDATA[Then The Response of "test" answers with "10" with "text/plain".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="As a tester i would like to check if states works 6" time="0.007322">
+<system-out><![CDATA[Then The Response of "test" answers with "22" with "text/plain".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="As a tester i would like to check if states works 7" time="0.011591">
+<system-out><![CDATA[Then The Response of "test" answers with "20" with "text/plain".............passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="As a tester i would like to check if states works 8" time="0.010924">
+<system-out><![CDATA[Then The Response of "test" answers with "3000" with "text/plain"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Test mimicservice app" name="As a tester i would like to check if states works 9" time="0.006797">
+<system-out><![CDATA[Then The Response of "test" answers with "30" with "text/plain".............passed
+]]></system-out>
+</testcase>
+</testsuite>
