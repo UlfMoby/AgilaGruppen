@@ -16,6 +16,8 @@ Feature: Test mimicservice app
       | "add?value1=10&value2=20"                       | "30"      | "text/plain"       |
       | "add?value1=10&value2=30"                       | "40"      | "text/plain"       |
       | "add?value1=10&value2=40"                       | "50"      | "text/plain"       |
+      | "seriezero?value=1"                             | "0"       | "text/plain"       |
+      | "seriezero?value=2"                             | "5"       | "text/plain"       |
 
 
 
@@ -30,6 +32,9 @@ Feature: Test mimicservice app
       | "add?value1=9&value2=9"                       | "18"     | "text/plain"       |
       | "add?value1=5&value2=7"                       | "12"     | "text/plain"       |
       | "add?value1=9&value2=1"                       | "10"     | "text/plain"       |
+      | "seriezero?value=3"                           | "10"     | "text/plain"       |
+      | "seriezero?value=4"                           | "15"     | "text/plain"       |
+      | "seriezero?value=5"                           | "20"     | "text/plain"       |
  
 
 
