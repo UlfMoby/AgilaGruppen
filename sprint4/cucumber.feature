@@ -25,7 +25,6 @@ Feature: Test mimicservice app
     Examples: 
       | request                                       | response | responseMime       |
       | "add?value1=10&value2=50"                     | "60"     | "text/plain"       |
-      | "add?value1=-2&value2=1"                      | "-1"     | "text/plain"       |
       | "add?value1=4&value2=3"                       | "7"      | "text/plain"       |
       | "add?value1=1&value2=5"                       | "6"      | "text/plain"       |
       | "add?value1=9&value2=9"                       | "18"     | "text/plain"       |
@@ -57,12 +56,15 @@ Feature: Test mimicservice app
       | "sub?value1=6&value2=4"                       | "2"      | "text/plain"       |
       | "sub?value1=5&value2=3"                       | "2"      | "text/plain"       |
       | "sub?value1=4&value2=4"                       | "0"      | "text/plain"       |
-      | "mult?value1=2&value2=2"                      | "4"     | "text/plain"       |
-      | "mult?value1=2&value2=3"                      | "6"     | "text/plain"       |
-      | "mult?value1=3&value2=2"                      | "6"     | "text/plain"       |
+      | "mult?value1=2&value2=2"                      | "4"      | "text/plain"       |
+      | "mult?value1=2&value2=3"                      | "6"      | "text/plain"       |
+      | "mult?value1=3&value2=2"                      | "6"      | "text/plain"       |
       | "div?value1=8&value2=2"                       | "4"      | "text/plain"       |
       | "div?value1=6&value2=3"                       | "2"      | "text/plain"       |
       | "div?value1=4&value2=2"                       | "2"      | "text/plain"       |
+      | "treesteps?value=1"                           | "3"      | "text/plain"       |
+      | "treesteps?value=2"                           | "6"      | "text/plain"       |
+      | "treesteps?value=3"                           | "9"      | "text/plain"       |
 
 
   Scenario Outline: As a Tester I would like the mock to learn how to respond to requests that I have not defined so that I do not have to create code for that manually only add, mult, div and sub operations
@@ -87,6 +89,8 @@ Feature: Test mimicservice app
       | "div?value1=15&value2=3"                      | "5"      | "text/plain"       |
       | "div?value1=6&value2=2"                       | "3"      | "text/plain"       |
       | "div?value1=10&value2=2"                      | "5"      | "text/plain"       |
+      | "treesteps?value=4"                           | "12"     | "text/plain"       |
+      | "treesteps?value=5"                           | "15"     | "text/plain"       |
 
 		
 Scenario Outline: As a Tester I would like to learn numbers
